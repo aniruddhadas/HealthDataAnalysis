@@ -3,8 +3,8 @@ library(httr)
 token_url = "http://api.fitbit.com/oauth/request_token"
 access_url = "http://api.fitbit.com/oauth/access_token"
 auth_url = "http://www.fitbit.com/oauth/authorize"
-key = "20f526f87ee6466d893b89c3fbd3ba56"
-secret = "35a688b2504f4ae7b9aa438bf05b475b"
+key = "<fill your key>"
+secret = "<fill your key>"
 
 fbr = oauth_app('StepTrack',key,secret)
 fitbit = oauth_endpoint(token_url,auth_url,access_url)
